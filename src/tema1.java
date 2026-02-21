@@ -70,14 +70,14 @@ public class tema1 {
         /*
         Afișează numerele de la 10 la 1 folosind while.
          */
-        int start = 1;
-        int stop = 10;
+        int start = 10;
+        int stop = 1;
 
         System.out.println("Afișează numerele de la 10 la 1 folosind while:");
 
-        while (start <= stop) {
+        while (start >= stop) {
             System.out.print(start + " ");
-            start++;
+            start--;
         }
 
         System.out.println();
