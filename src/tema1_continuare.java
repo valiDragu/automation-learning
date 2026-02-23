@@ -8,7 +8,7 @@ public class tema1_continuare {
 
     // Creaza o metoda cu 2 parametrii int, care returneaza produsul celor doi parametrii.
     public static int produs(int x, int y) {
-        return x + y;
+        return x * y;
     }
 
 
@@ -16,10 +16,11 @@ public class tema1_continuare {
     public static int sumaSir(int start, int stop) {
         int sum = 0;
         while (start <= stop) {
-            sum += start;
+            if (start % 2 == 0) {
+                sum += start;
+            }
             start++;
         }
-
         return sum;
     }
 
@@ -55,7 +56,7 @@ public class tema1_continuare {
         System.out.println();
 
         int sumaSirului = sumaSir(1, 50);
-        System.out.println("Suma numerelor de la 1 la 50: " + sumaSirului);
+        System.out.println("Suma numerelor pare de la 1 la 50: " + sumaSirului);
         System.out.println();
 
         int mediaNumerelor = mediaATreiNumere(1, 2,3);

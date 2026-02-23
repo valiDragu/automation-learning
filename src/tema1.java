@@ -75,9 +75,9 @@ public class tema1 {
 
         System.out.println("Afișează numerele de la 10 la 1 folosind while:");
 
-        while (start >= stop) {
+        while (start <= stop) {
             System.out.print(start + " ");
-            start--;
+            start++;
         }
 
         System.out.println();
