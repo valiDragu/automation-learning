@@ -1,4 +1,4 @@
-public class tema1_continuare {
+public class Tema1_continuare {
 
     // Creează o metodă care afișează: “Invat Java!”
     public static void mesaj() {

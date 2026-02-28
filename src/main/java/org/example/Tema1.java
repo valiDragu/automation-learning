@@ -1,4 +1,4 @@
-public class tema1 {
+public class Tema1 {
     public static void main() {
         /*
         Creează variabile pentru: varsta unui student, inaltimea acestuia, daca este prezent la curs.
