@@ -1,9 +1,9 @@
+package tema2;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import java.sql.SQLOutput;
 
 public class tema2A {
 

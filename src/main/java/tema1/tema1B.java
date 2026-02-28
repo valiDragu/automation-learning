@@ -1,4 +1,6 @@
-public class Tema1_continuare {
+package tema1;
+
+public class tema1B {
 
     // Creează o metodă care afișează: “Invat Java!”
     public static void mesaj() {
