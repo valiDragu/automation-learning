@@ -2,12 +2,14 @@ package tema3;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import javax.swing.*;
 import java.time.Duration;
 
 public class tema3A {
@@ -32,7 +34,6 @@ public class tema3A {
 
         driver.get("https://demoqa.com/automation-practice-form");
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
 
 //        Gaseste campul First Name folosind Xpath, bazat pe placeholder
 //        Introdu in acel camp valoarea “Test”
@@ -74,12 +75,11 @@ public class tema3A {
 
 //        Gaseste butonul Submit dupa text si apasa folosind click
         WebElement submit = driver.findElement(By.xpath("//button[text()='Submit']"));
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollBy(0, 35000000)");
+        Actions action = new Actions(driver);
+        action.scrollToElement(submit);
         submit.click();
 
-        WebElement close = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@id='closeLargeModal']]")));
+        WebElement close = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@id='closeLargeModal']")));
         close.click();
     }
-
 }
