@@ -1,11 +1,11 @@
-package tema2;
+package Tema2;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class tema2A {
+public class Tema2A {
 
     WebDriver driver;
 

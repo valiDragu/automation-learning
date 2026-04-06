@@ -1,4 +1,4 @@
-package tema2;
+package Tema2;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 /*
 Refactorizeaza clasa de la exercitiul 3 sa foloseasca @BeforeMethod si @AfterMethod
  */
-public class tema2C {
+public class Tema2C {
 
     WebDriver driver;
 

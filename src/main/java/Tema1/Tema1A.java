@@ -1,6 +1,6 @@
-package tema1;
+package Tema1;
 
-public class tema1A {
+public class Tema1A {
     public static void main() {
         /*
         Creează variabile pentru: varsta unui student, inaltimea acestuia, daca este prezent la curs.

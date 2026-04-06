@@ -1,4 +1,4 @@
-package tema5;
+package Tema5;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 import java.util.List;
 
-public class tema5 {
+public class Tema5 {
 
     WebDriver driver;
 
@@ -24,7 +24,6 @@ public class tema5 {
         driver.get("https://practicesoftwaretesting.com/");
         driver.manage().window().maximize();
     }
-
 
     @AfterMethod
     public void teardown() {
@@ -141,5 +140,4 @@ public class tema5 {
         Assert.assertEquals(cartQuantity, productQuantity, "Incorrect quantity in cart");
         Assert.assertEquals(productPrice,trimmedCartPrice, "Incorrect price in cart");
     }
-
 }

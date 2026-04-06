@@ -1,4 +1,4 @@
-package tema3;
+package Tema3;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -8,7 +8,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class tema3B {
+public class Tema3B {
 
     WebDriver driver;
 

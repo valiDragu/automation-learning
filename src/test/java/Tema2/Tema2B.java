@@ -1,4 +1,4 @@
-package tema2;
+package Tema2;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,7 +9,7 @@ Creaza o clasa care are doua teste:
 unul care navigheaza la https://example.com/ si inchide browserul;
 unul care navigheaza la https://www.apple.com/ si inchide browserul.
  */
-public class tema2B {
+public class Tema2B {
 
     WebDriver driver;
 

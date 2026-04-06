@@ -1,22 +1,19 @@
-package tema4;
+package Tema4;
 
-import io.opentelemetry.sdk.metrics.internal.data.EmptyExponentialHistogramBuckets;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-import java.beans.Visibility;
 import java.time.Duration;
 import java.util.List;
 
-public class tema4 {
+public class Tema4 {
 
     WebDriver driver;
 
