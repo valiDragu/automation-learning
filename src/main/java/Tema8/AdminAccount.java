@@ -9,6 +9,6 @@ public class AdminAccount extends Account{
     }
 
     public void deleteUser() {
-        System.out.println("User deleted");
+        System.out.println("User " + role + " deleted");
     }
 }

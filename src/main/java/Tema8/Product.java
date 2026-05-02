@@ -26,7 +26,7 @@ public class Product {
     public static void main() {
         Product product1 = new Product();
         product1.setName("Test");
-        product1.setPrice(1);
+        product1.setPrice(0.01);
         product1.getName();
         product1.getPrice();
     }
